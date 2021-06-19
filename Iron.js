@@ -12,7 +12,7 @@ this.y=y;
 this.width=w;
 this.height=h;
 
-this.body=Bodies.rectangle(this.x, this.y,this.w,this.h, options)
+this.body=Bodies.rectangle(x, y,w,h, options)
 World.add(world, this.body);
 
 
